@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style4.css" />
+    <title>formularios 4</title>
+  </head>
+
+  <body>
+    <form method="get" action="login.html" id="formulario" >
+
+        <table>
+            <tr>
+              <th>Nombre*</th>
+              <th>    Teléfono*</th>
+            </tr>
+            <td><input type="text" name="Nombre" value="" id="nombre" required></td>
+            <td><input type="number" name="tel" value="" id="tel" required></td>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <th>            Recoger el dia*</th>
+          </tr>
+          <td><input type="date" name="out" value="" id="out" required></td>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <th> Postre*</th>
+            <th>Cantidad*</th>
+          </tr>
+           <td><!--adul--> 
+              <select class="adul" id="postre" name="postre" form="formulario" required>
+              <option value=""></option>
+              <option value="Caja">Caja de fruta</option>
+              <option value="Huevo">Huevo</option>
+              <option value="Limón">Limón</option>
+              <option value="Macarons">Macarons</option>
+              </select>
+            </td>         
+          <td>              
+              <select id="cantidad" name="candidad" form="formulario" required>
+              <option value=""></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              </select>
+          </td>
+        </table>
+        <br><br> 
+        <!-- <input type="tel" id="tel" name="tel" placeholder="Tu teléfono" pattern=[0-9]{9} required> -->
+        <input type="checkbox" name="checkbox" value="si" id="ch1" /><span> Selecione para confirmar</span>
+        <br> 
+        <br>
+        <br> 
+        
+        <input type="submit" value="Reservar"  form="formulario"style="background-color: rgb(0, 255, 106);font-size: x-large;margin-left: 25px; margin-right: 45px; "/>  
+               
+        <input type="reset" value="Reset" form="formulario" style="background-color: chocolate; font-size: x-large;" />
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        <!-- autofocus 
+        <div class="div1">
+          Name* <br> 
+          <input type="text" name="Nombre" value="Nombre" id="nombre" autofocus>
+              Phone* <br>
+          <input type="tel"name="tel" value="tel">  
+
+        </div>-->
+       <!-- radio buttons 
+      <input type="checkbox" name="checkbox" value="si" id="ch1"/>
+      <label for="ch1">CSS</label>
+      <br><br>
+      <input type="radio" name="active2" value="html" id="ch2" />
+      <label for="ch2">HTML</label>
+      <br><br>
+      <input type="radio" name="active2" value="JS" id="ch3" />
+      <label for="ch3">JS</label>-->
+
+       <!-- subir archivo 
+      <label for="mi_archivo" style="font-size: x-large; color: red;">Selecciona tu archivo: *.jpg</label><br />
+      <input type="file" name="mi_archivo" id="mi_archivo" accept=".jpg"/>
+      <br /><br />-->
+
+      <!-- dropdown menu -1 
+     <p style="font-size: x-large; color: rgb(16, 59, 16);">Tratamiento</p>
+      <select id="trato" name="trato">
+        <option value="X">--</option>
+        <option value="señor">Sr.</option>
+        <option value="Señora">Sra.</option>
+      </select>
+      <input type="text" name="nombre" />
+      <br><br><br>
+    </form>
+
+    <br />
+    <p>DropDown Menu, fuera del formulario:</p>
+    <br>-->
+    <!-- dropdown menu 
+    <div class="helado">
+        <label for="helados" style="font-size: x-large; color: blue;" >Escoge un helado:</label> 
+        <br><br>
+        <select id="helados" name="helados" form="formulario">
+          <option value="Nada">No desea helado</option>
+          <option value="Fresa">Fresa con trocitos de menta</option>
+          <option value="Limón">Limón con lima</option>
+          <option value="Chocolate">Chocolate con vainilla y canela</option>
+          <option value="Turrón">
+            Turrón con almendras y pepitas de chocolate
+          </option>
+        </select>
+    </div>
+    <br><br>-2 -->
+           <!-- boton submit 
+           <input type="submit" value="Enviar" form="formulario" style="background-color: aqua;font-size: x-large;margin-left: 25px; margin-right: 45px;"/>         
+           <input type="reset" form="formulario" style="background-color: chocolate; font-size: x-large;" />-->
+  </body>
+</html>

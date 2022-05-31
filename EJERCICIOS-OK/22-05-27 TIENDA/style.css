@@ -1,0 +1,98 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.envio {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-right: auto
+}
+
+footer a {
+    padding: 5px;
+    text-decoration: none;
+    border: 2px black solid;
+    background-color: linen;
+}
+
+.defini p {
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+
+.productos {
+    display: flex;
+}
+
+.producto {
+    width: 400px;
+    text-align: center;
+    border: solid 2px black;
+    padding-right: 2px;
+    margin: 5px;
+}
+
+.producto img {
+    width: 400px;
+    background-color: lightgrey;
+    border: solid 1px black;
+}
+
+.cabeza {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalles {
+    display: flex;
+
+}
+
+.detalle img {
+    width: 75px;
+    border: solid 1px black;
+    margin-right: 20px;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+}
+
+.nombre {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navega {
+    text-align: center;
+}
+
+.navega a {
+    background-color: blanchedalmond;
+    border: 1px solid coral;
+    text-decoration: none;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navega a:hover {
+    background-color: aqua;
+}

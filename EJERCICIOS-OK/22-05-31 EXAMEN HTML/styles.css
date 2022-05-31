@@ -1,0 +1,30 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.navega {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: bisque;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.oferta {
+    text-align: center;
+}
+
+.cosas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

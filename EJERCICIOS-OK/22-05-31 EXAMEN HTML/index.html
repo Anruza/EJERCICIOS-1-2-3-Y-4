@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EXAMEN 1</title>
+</head>
+<body>
+    <hr>
+    <div class="navega">
+       <a href="index.html"> <h3>Inicio</h3></a>
+       <a href="#"> <h3>Tienda</h3></a> 
+       <a href="mailto:anruzafa@hotmail.com"> <h3>Contacto</h3></a> 
+    </div>
+    <hr>
+    <div class="oferta">
+        <h1>SIGLO XXXVI</h1>
+        <h2 style="color:red ;">NUEVAS PROPUESTAS</h2>
+
+        <br>
+        <div class="cosas">
+            <img src="fotos/Srek.jpg" alt="anillo srek" width="400px" >
+            <img src="fotos/DSC_8324.JPG" alt="broche espuknic" width="427px" >
+            <img src="fotos/IMG-20160520-WA0005.jpg" alt="collar futurista" width="427">
+        </div>
+        <p style="background-color:lightblue ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto architecto fugiat sed ratione possimus, fuga et, quisquam accusamus neque rem culpa non, natus temporibus aut distinctio ut ipsum deserunt!
+        Voluptatem, veniam? Nesciunt, inventore non maiores eos esse nulla nobis repudiandae dolores culpa? Reprehenderit delectus iusto eaque. Nisi suscipit ab expedita! Dolore reiciendis at tempora adipisci ab iure dicta eligendi.</p>
+    </div>
+    <hr>
+    
+        <form method="get" action="login.html"  id="hola" style="width: 500px; margin-left: 400px;" >
+            <fieldset>
+            <legend style="text-align:center;">Si deseas mas información, envianos tus datos</legend>
+            <br> 
+            <label for="nombre">Nombre *</label>
+            <input type="text" id="nombre"  name="nombre" placeholder="Tu nombre aquí" required style="margin-left:30px ;">
+            <br><br>
+            <label for="edad" > Edad *</label>
+            <input type="number" id="edad" name="edad" placeholder="Mayor de 25" min="25" max="99" step="1"  required style="margin-left:48px; width: 100px ;">
+            <br><br>
+            <label for="email" >Email *</label>
+            <input type="email" id="email" name="email" placeholder="Tu email" required  style="margin-left:40px ;">
+            <br><br>
+            <label for="nobre">Comentario *</label> <br>
+            <textarea
+                
+                name="comentario"
+                id="comentario"
+                cols="50"
+                rows="5"
+                maxlength="300"
+                required >
+            </textarea>
+            <br><br>
+            <input type="checkbox" name="checkbox" required value="si" id="ch1" /><span style="color:red ;"> No he leido nada pero acepto igual</span>
+            <br><br>
+            <input type="submit" value="Enviar" form="hola" style="background-color: aqua;font-size: x-large;margin-left: 15px; margin-right: 35px;"/>  
+            </fieldset>
+         </form>
+         <hr>
+         <h4>Dudas? Enviame un correo <a href="mailto:anruzafa@hotmail.com">aquí</a></h4>
+         <hr>
+    
+</body>
+</html>

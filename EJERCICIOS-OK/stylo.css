@@ -1,0 +1,39 @@
+body {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    border: black 5px solid;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aa {
+    width: 300px;
+    border: black 1px solid;
+    margin: 2px;
+}
+
+.bb {
+    width: 300px;
+    border: black 1px solid;
+    margin: 2px;
+}
+
+.cc {
+    width: 300px;
+    border: black 1px solid;
+    margin: 2px;
+}
+
+.dd {
+    width: 300px;
+    border: black 1px solid;
+    margin: 2px;
+}
